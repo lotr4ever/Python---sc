@@ -2,6 +2,8 @@ import math
 import numpy as np
 import scipy.linalg as sla
 
+#задание выполнено на python 3
+
 #получение данных соответствующих условию
 def get_matrix(n):
     temp = np.ones(n - 1) * -1
